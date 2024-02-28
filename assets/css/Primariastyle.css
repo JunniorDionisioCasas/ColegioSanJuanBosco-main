@@ -1,0 +1,26 @@
+  .cursosPrimaria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  
+  .main_c {
+    margin-bottom: 20px;
+    width: 20%;
+  }
+  
+  .section-title {
+    margin-bottom: 20px; 
+  }
+  
+  .image-row008 {
+    margin-top: 40px;
+  }
+  
+  .image-container {
+    margin-right: 20px;
+  } 
+  
+  .image-container:last-child {
+    margin-right: 0;
+  }

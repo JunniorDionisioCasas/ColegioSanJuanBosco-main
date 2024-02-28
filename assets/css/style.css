@@ -2009,12 +2009,12 @@ body, html {
 .image-row008 img {
   max-width: 200px; 
   max-height: 200px; 
-  margin: 0 5px; 
+ 
 }
 .image-row008 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .image-container {
@@ -2056,7 +2056,7 @@ body, html {
 .image-row010 {
   display: flex;
   justify-content: center; 
-  align-items: center; 
+  justify-content: space-evenly;
 }
 
 .image-row010 img {
@@ -2111,7 +2111,7 @@ body, html {
     padding-bottom: 50px;
   }
   .SocioFun {
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
   }
 }
