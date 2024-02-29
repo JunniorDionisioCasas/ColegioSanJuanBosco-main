@@ -1885,6 +1885,8 @@ body, html {
 }
 .scale-up-horizontal-left{animation:scale-up-horizontal-left 2s } @keyframes scale-up-horizontal-left{0%{transform:scaleX(.4);transform-origin:left center}100%{transform:scaleX(1);transform-origin:left center}}
 .scale-up-vertical-center{animation:scale-up-vertical-center 2s} @keyframes scale-up-vertical-center{0%{transform:scaleY(.2)}100%{transform:scaleY(1)}}
+
+
 /*cursos02*/
 .main_b {
   display: flex;
@@ -1895,9 +1897,6 @@ body, html {
   font-family: "Roboto", sans-serif;
   flex: 0 0 min(calc(33.33% - 10px), 100%); /* Calcula el ancho del elemento, limitando a 33.33% */
 }
-
-
-
 .card {
   width: 24rem;
   height: 22rem;
