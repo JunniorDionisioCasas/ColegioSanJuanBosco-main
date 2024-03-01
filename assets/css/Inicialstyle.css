@@ -1,3 +1,6 @@
+.rotate-center{-webkit-animation:rotate-center .6s ease-in-out both;animation:rotate-center .6s ease-in-out both}
+
+
 .image-row008 img {
     max-width: 200px;
     max-height: 200px;
@@ -94,3 +97,8 @@
   display: block;
   margin-top: 5px;
    } 
+   .notiCard01 {
+	  animation: none;
+  }   
+
+
