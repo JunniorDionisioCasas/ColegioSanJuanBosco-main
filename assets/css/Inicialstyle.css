@@ -98,6 +98,36 @@
   margin-top: 5px;
    } 
 
-   
+   .herr__online {
+    padding: 4px;
+    width: 20%;
+    border: solid 2px red;
+  }
+  .herr__online p {
+    text-align: center;
+  }
+  .herr__online h4 {
+    margin-top: -50px;
+    text-align: center;
+  }
+  
+  .herr__online img {
+    background-color: white;
+    height: 100px;
+    position: relative; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  .item_herr h4:hover {
+    color: yellow; /* Cambia el color del texto a amarillo */
+  }
+
+   @media screen and (max-width: 400px) { 
+    .padre{
+      flex-direction: column;
+      align-items: center;
+    }
+   } 
 
 
