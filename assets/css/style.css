@@ -520,15 +520,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  color: #5c768d;
+
+  color: #033777;
 }
 
 .section-title p {
@@ -595,10 +594,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # About Us (SOCIOS FUNDADORES)
 --------------------------------------------------------------*/
 .scale-up-top-right{animation:scale-up-top-right 2s; } @keyframes scale-up-top-right{0%{transform:scale(.5);transform-origin:top right}100%{transform:scale(1);transform-origin:top right}}
-.img_propio {
-  padding-bottom: 30px;
-  max-width: 70% !important;
-}
 
 
 
@@ -1601,11 +1596,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 
 /*--------------------------------------------------------------
-# NUMEROS RAPIDOS
+# NUMEROS RAPIDOS TIEN
 --------------------------------------------------------------*/
 .about .container {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding-bottom: 15px;
+   padding-bottom: 15px;
 }
 
 .estadistica{
@@ -1732,18 +1726,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-color: #f5f9fc;
 }
 
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  color: #033777;
-}
+
 
 .section-title p {
   margin-bottom: 0;
@@ -1837,10 +1821,7 @@ body, html {
   justify-content: center;
   align-items: center;
 }
-.img_propio {
-  width: 500px;
-  height: auto;
-}
+
 
 
 /*--------------------------------------------------------------------*/
@@ -1882,8 +1863,10 @@ body, html {
   text-align: center;
 }
 .img_propio {
-  max-width: 100%;
-  border-radius: 50px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 16px 8px rgba(255, 255, 0, 0.5);
+  max-width: 70% !important;
+  border-radius: 16px;
 }
 .scale-up-horizontal-left{animation:scale-up-horizontal-left 2s } @keyframes scale-up-horizontal-left{0%{transform:scaleX(.4);transform-origin:left center}100%{transform:scaleX(1);transform-origin:left center}}
 .scale-up-vertical-center{animation:scale-up-vertical-center 2s} @keyframes scale-up-vertical-center{0%{transform:scaleY(.2)}100%{transform:scaleY(1)}}
@@ -1979,7 +1962,10 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
+
+
 
 .content-wrapper {
   display: flex;
@@ -2120,9 +2106,7 @@ body, html {
   .notiCard {
     animation: none;
   }
-  .section-title {
-    padding-bottom: 50px;
-  }
+ 
   .SocioFun {
     justify-content: space-evenly;
     display: flex;
@@ -2168,3 +2152,7 @@ body, html {
   justify-content: center;
 }
 
+section:not(#topbar){
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
